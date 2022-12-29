@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="edgeTest(failed)(failed)">
+    <parameter name="browser" value="edgedriver"/>
+    <classes>
+      <class name="practice.DropdownHandelWithoutSelectClass">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="beforesuite"/>
+          <include name="aftertest"/>
+          <include name="afterclass"/>
+          <include name="makeMyTrip"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- practice.DropdownHandelWithoutSelectClass -->
+    </classes>
+  </test> <!-- edgeTest(failed)(failed) -->
+  <test thread-count="2" parallel="tests" name="chromeTest(failed)(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="practice.DropdownHandelWithoutSelectClass">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="beforesuite"/>
+          <include name="aftertest"/>
+          <include name="afterclass"/>
+          <include name="makeMyTrip"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- practice.DropdownHandelWithoutSelectClass -->
+    </classes>
+  </test> <!-- chromeTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
