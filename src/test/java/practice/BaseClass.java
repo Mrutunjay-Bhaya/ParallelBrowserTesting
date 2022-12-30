@@ -72,7 +72,7 @@ public class BaseClass {
 	public void afterclass() throws InterruptedException {
 		System.out.println("class is close");
 		Thread.sleep(5000);
-		driver.close();
+		//driver.close();
 	}
 		
 	@AfterTest
