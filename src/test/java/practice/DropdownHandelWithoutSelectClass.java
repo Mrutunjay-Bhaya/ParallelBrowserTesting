@@ -31,8 +31,8 @@ public class DropdownHandelWithoutSelectClass extends BaseClass {
 		public void makeMyTrip() throws InterruptedException {
 			String url= "https://www.makemytrip.com/";
 			driver.get(url);
-			driver.findElement(By.xpath("//input[@id='fromCity']")).click();
-			driver.findElement(By.xpath("//p[text()='Goa, India']")).click();
+			//driver.findElement(By.xpath("//input[@id='fromCity']")).click();
+			//driver.findElement(By.xpath("//p[text()='Goa, India']")).click();
 			Thread.sleep(3000);
 //			driver.findElement(By.xpath("//input[@id='toCity']")).click();
 //			driver.findElement(By.xpath("//p[text()='Chennai, India']")).click();
