@@ -8,12 +8,13 @@
       
     </classes>
   </test> <!-- Test -->
-  
+ <!-- 
   <test name="edgeTest">
   <parameter name="browser" value="edgedriver"/>
     <classes>
     
       <class name="practice.DropdownHandelWithoutSelectClass"/>
     </classes>
-  </test> <!-- Test -->
+  </test>  Test -->
+  
 </suite> <!-- Suite -->
